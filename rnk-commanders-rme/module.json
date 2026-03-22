@@ -1,0 +1,35 @@
+{
+    "id": "rnk-commanders-rme",
+    "title": "RNK Commander's RME",
+    "description": "Revised martial equipment for D&D 5e with 150 weapons across 16 groups, training levels, and custom properties.",
+    "authors": [
+        {
+            "name": "RNK Development"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": 11,
+        "verified": 13
+    },
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "styles": [
+        "styles/main.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "packs": [
+        { "name": "rme-weapons", "label": "RME: Weapons", "path": "packs/rme-weapons", "type": "Item", "system": ["dnd5e"] },
+        { "name": "rme-armor", "label": "RME: Armor", "path": "packs/rme-armor", "type": "Item", "system": ["dnd5e"] },
+        { "name": "rme-shields", "label": "RME: Shields", "path": "packs/rme-shields", "type": "Item", "system": ["dnd5e"] },
+        { "name": "rme-feats", "label": "RME: Feats & Fighting Styles", "path": "packs/rme-feats", "type": "Item", "system": ["dnd5e"] },
+        { "name": "rme-rules", "label": "RME: Rules & References", "path": "packs/rme-rules", "type": "JournalEntry" }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Skill Expert (RME)",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Revised for RME</em></p><ul><li>Increase one ability score of your choice by 1, to a maximum of 20.</li><li>You gain proficiency in one skill of your choice, or increase training with one equipment from untrained to basic.</li><li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature that doubles your proficiency bonus. Instead of this choice, you can choose one equipment you have basic training, even equipment you gained basic training with this feat, and increase that training to master.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "revised"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "skill-expert-rme-0013",
+  "_key": "!items!skill-expert-rme-0013"
+}

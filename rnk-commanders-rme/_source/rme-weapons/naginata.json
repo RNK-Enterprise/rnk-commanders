@@ -1,0 +1,61 @@
+{
+  "name": "Naginata",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/glaive-hooked-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Japanese-style curved blade mounted on a long pole. Light and swift, the naginata's keen edge and reach make it a weapon of grace and precision, capable of deflecting incoming attacks.</p><p><strong>Basic:</strong> Two-Handed, Finesse, Reach, Melee 2d6, Balanced, Keen</p>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "rch",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Polearms",
+        "trainingLevel": "basic",
+        "masterPerk": "You can add your proficiency bonus to your Deflect roll."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "naginata-0117",
+  "_key": "!items!naginata-0117"
+}

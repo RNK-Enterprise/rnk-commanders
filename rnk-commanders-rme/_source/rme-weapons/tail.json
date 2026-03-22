@@ -1,0 +1,58 @@
+{
+  "name": "Tail",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-hammer-destructive-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A natural weapon attack using the creature's tail. Damage values are determined by the creature's stat block; RME properties apply on top of the creature's base attack.</p><p><strong>Basic:</strong> Natural, Reach, Melee, Double Ended (one dice size smaller), Knockback, Trip</p>"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "rch"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Natural Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "As an action, you can attack all enemies within 5 feet of you."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "tail-0109",
+  "_key": "!items!tail-0109"
+}

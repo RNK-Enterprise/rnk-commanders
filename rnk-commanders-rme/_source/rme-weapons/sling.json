@@ -1,0 +1,60 @@
+{
+  "name": "Sling",
+  "type": "weapon",
+  "img": "icons/weapons/slings/sling-wrapped-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A simple but effective ranged weapon consisting of a pouch attached to two cords. Stones or lead bullets are whirled and released at high velocity. Can also be used as a melee weapon.</p><p><strong>Basic:</strong> One-Handed, Finesse, Light, Melee d4, Ranged d8 (150/600), Reload (free), Conceal, Disarm</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 150,
+      "long": 600,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "fin",
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "On a mighty blow, the target must succeed on a Constitution saving throw or suffer disadvantage to attacks until the end of its next turn."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "sling-0101",
+  "_key": "!items!sling-0101"
+}

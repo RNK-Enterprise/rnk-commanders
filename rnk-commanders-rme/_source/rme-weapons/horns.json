@@ -1,0 +1,59 @@
+{
+  "name": "Horns",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-hammer-destructive-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A natural weapon attack using the creature's horns or antlers. Damage values are determined by the creature's stat block; RME properties apply on top of the creature's base attack.</p><p><strong>Basic:</strong> Natural, Melee, Brace, Punch, Puncture, Sunder</p>"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Natural Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "When you move at least 20 feet in a straight line toward your target, you can make one melee attack with your horns as a bonus action. If this attack hits, your weapon damage dice is doubled."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "horns-0107",
+  "_key": "!items!horns-0107"
+}

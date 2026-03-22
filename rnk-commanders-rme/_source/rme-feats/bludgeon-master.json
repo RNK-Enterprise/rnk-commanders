@@ -1,0 +1,54 @@
+{
+  "name": "Bludgeon Master",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choose 4 bludgeons to gain master training when you take this feat.</p><ul><li>+1 to damage rolls with bludgeon weapons.</li><li>When you score a critical hit, your enemy must succeed on a Constitution saving throw or be stunned until the end of your next turn.</li><li>When you score a powerful blow, the enemy must succeed on a Constitution saving throw or take a level of exhaustion. You can only grant two levels of exhaustion to an enemy in this way.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "featType": "groupMaster"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "bludgeon-master-0002",
+  "_key": "!items!bludgeon-master-0002"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "War Mallet",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-war-metal.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy one-handed mallet that delivers crushing knockback and staggering blows, overwhelming enemies when wielded with advantage.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Heavy, Melee d10</td><td>Knockback, Punch, Stagger</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "hvy"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Hammers & Picks",
+        "trainingLevel": "basic",
+        "masterPerk": "When you have advantage, the saves to resist your weapon DC are made with disadvantage."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "war-mallet-0095",
+  "_key": "!items!war-mallet-0095"
+}

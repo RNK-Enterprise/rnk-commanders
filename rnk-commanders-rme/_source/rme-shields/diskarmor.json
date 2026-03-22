@@ -1,0 +1,48 @@
+{
+  "name": "Diskarmor",
+  "type": "equipment",
+  "img": "icons/equipment/shield/buckler-round-engraved-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>+2 AC, 8 lbs, 75 gp</em></p><p>An esoteric weapon of gnomish invention, a diskarmor is a round shield attached to a chain mechanism that retracts quickly after the chain reaches its length to make essentially a shield yo-yo. The user can toss it out to wield it like a large flail, then retract it to be used as a shield again.</p><p>Diskarmor is a shield which has the following properties: One-Handed, Reach, Melee d6, Clockwork, Entangle, Trip. Diskarmor deals bludgeoning damage. A diskarmor is not considered a weapon.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Basic</strong></td><td>You can replace any of your attacks with an attack using the Diskarmor. This attack does not benefit from your ability modifier to damage unless you have the Two-Weapon Fighting Style.</td></tr><tr><td><strong>Master</strong></td><td>When your ally within 10ft is hit by an attack, you can use your reaction to confer your shield AC bonus from this shield to them until the end of your next turn, possibly negating an attack.</td></tr></table>"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 2,
+      "dex": null
+    },
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    },
+    "properties": [],
+    "equipped": false,
+    "rarity": "common",
+    "strength": null
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Shields",
+        "shieldType": "Diskarmor",
+        "trainingLevel": "basic",
+        "acBonus": 2,
+        "donAction": "Bonus Action"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "diskarmor-0002",
+  "_key": "!items!diskarmor-0002"
+}

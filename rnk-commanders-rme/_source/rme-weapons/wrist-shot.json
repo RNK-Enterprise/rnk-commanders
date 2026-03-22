@@ -1,0 +1,59 @@
+{
+  "name": "Wrist Shot",
+  "type": "weapon",
+  "img": "icons/weapons/slings/sling-wrapped-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A compact wrist-mounted sling device, leaving the hands free while providing a concealed ranged attack option. Its surprising nature can catch enemies off guard.</p><p><strong>Basic:</strong> Two-Handed, Ranged d4 (40/160), Disarm, Hipshot</p>"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 40,
+      "long": 160,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "When you score a mighty blow, your enemy loses its reaction until the start of its next turn. If you score a powerful blow, this effect applies, as well as all attacks against this enemy gain advantage until the end of your next turn. On a critical hit, these effects both apply."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "wrist-shot-0104",
+  "_key": "!items!wrist-shot-0104"
+}

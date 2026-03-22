@@ -1,0 +1,69 @@
+{
+  "name": "Ravenbeak",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-simple-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>An elegantly crafted spear with a hooked blade resembling a raven's beak, designed to disarm foes and riposte swiftly.</p>"
+    },
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      }
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "ver",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Spears",
+        "trainingLevel": "basic",
+        "masterPerk": "If you hit with an attack, you can move your target 5 ft in a direction of your choice, and it can't move closer to you until the start of your next turn."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "ravenbeak-0126",
+  "_key": "!items!ravenbeak-0126"
+}

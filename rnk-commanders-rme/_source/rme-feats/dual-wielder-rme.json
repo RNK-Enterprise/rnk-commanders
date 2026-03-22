@@ -1,0 +1,53 @@
+{
+  "name": "Dual Wielder (RME)",
+  "type": "feat",
+  "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Revised for RME</em></p><ul><li>You gain a +1 bonus to AC while you are wielding a separate weapon in each hand.</li><li>When you are dual wielding, neither weapon is required to have the Light property, but neither weapon can have the Versatile property.</li><li>You can stow two One-Handed weapons with a single Object Interaction.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "revised"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "dual-wielder-rme-0011",
+  "_key": "!items!dual-wielder-rme-0011"
+}

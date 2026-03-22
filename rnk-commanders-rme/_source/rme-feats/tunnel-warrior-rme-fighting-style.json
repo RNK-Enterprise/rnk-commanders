@@ -1,0 +1,53 @@
+{
+  "name": "Tunnel Warrior (RME Fighting Style)",
+  "type": "feat",
+  "img": "icons/environment/wilderness/cave-entrance-mountain.webp",
+  "system": {
+    "description": {
+      "value": "<p>You excel at fighting in tight spaces where movement is limited or impossible. Any weapon you wield gains the Nimble weapon property and you are never considered squeezing while in a space too small for your size. You can make an opportunity attack when an enemy enters or moves within your reach. At the beginning of your turn, you can choose to set your speed to 0 and grant a damage bonus to your weapon attacks equal to your Strength modifier, or Dexterity if the weapon has the Finesse property.</p>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "fightingStyle"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "tunnel-warrior-rme-fighting-style-0029",
+  "_key": "!items!tunnel-warrior-rme-fighting-style-0029"
+}

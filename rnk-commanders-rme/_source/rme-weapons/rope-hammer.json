@@ -1,0 +1,59 @@
+{
+  "name": "Rope Hammer",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-ball-chain-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A weighted hammer on a rope, used with finesse to entangle and trip foes, and to deflect incoming strikes.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Finesse, Light, Melee d6</td><td>Entangle, Trip</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Flails",
+        "trainingLevel": "basic",
+        "masterPerk": "When you roll a Deflect roll, you can make an attack as part of the same reaction."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "rope-hammer-0084",
+  "_key": "!items!rope-hammer-0084"
+}

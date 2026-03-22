@@ -1,0 +1,61 @@
+{
+  "name": "Whip Dagger",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-pointed-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A flexible blade that can strike like a whip, the whip dagger can entangle enemies and then exploit that vulnerability to deliver precise strikes.</p>"
+    },
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "two",
+      "rch"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Whips",
+        "trainingLevel": "basic",
+        "masterPerk": "While an enemy is entangled, you can attack it or any target within 5ft of it. This forgoes the automatic hit granted by the Entangle property, and if this attack hits, it deals weapon damage and your ability modifier."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "whip-dagger-0148",
+  "_key": "!items!whip-dagger-0148"
+}

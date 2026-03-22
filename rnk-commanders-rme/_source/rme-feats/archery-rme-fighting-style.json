@@ -1,0 +1,53 @@
+{
+  "name": "Archery (RME Fighting Style)",
+  "type": "feat",
+  "img": "icons/skills/ranged/target-bull-eye.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a skilled and focused marksman. You gain a +1 bonus to attack rolls you make with ranged weapons. All ranged weapons you wield gain the Steady property. Additionally, if you do not move during your turn, you can spend a bonus action to aim carefully, giving yourself advantage on your next attack. After you use this ability, your speed becomes 0 until the start of your next turn.</p>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "fightingStyle"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "archery-rme-fighting-style-0018",
+  "_key": "!items!archery-rme-fighting-style-0018"
+}

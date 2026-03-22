@@ -1,0 +1,56 @@
+{
+  "name": "Repeating Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A magazine-fed crossbow that fires repeatedly without manual reloading. In trained hands it becomes a weapon of sustained fire superiority \u00e2\u20ac\u201d at the cost of the user's movement.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Ranged d4 (80/320), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Ranged d6 (80/320), Reload free, Keen, Steady</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Ranged d6 (80/320), Reload free, Keen, Steady \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>When you take the Attack action, you may make one additional attack as a bonus action. If you do, your speed becomes 0 until the start of your next turn.</td></tr></table>"
+    },
+    "price": {
+      "value": 150,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 80,
+      "long": 320,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Crossbows",
+        "trainingLevel": "basic",
+        "masterPerk": "When you take the Attack action, you may make one additional attack as a bonus action. If you do, your speed becomes 0 until the start of your next turn."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "repeating-crossbow-0058",
+  "_key": "!items!repeating-crossbow-0058"
+}

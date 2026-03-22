@@ -1,0 +1,56 @@
+{
+  "name": "Hand Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A compact one-handed crossbow that fires with surprising force at close range. Its clockwork reload mechanism and hipshot capability make it a favorite for mobile skirmishers and ambushers.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Light, Ranged d4 (30/120), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Light, Ranged d6+2 (30/120), Reload free, Hipshot, Keen, Steady</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Light, Ranged d6+2 (30/120), Reload free, Hipshot, Keen, Steady \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>You can reload this crossbow one-handed. If you have not used your Attack action this turn, you may make one attack with this weapon as a bonus action.</td></tr></table>"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing"
+        ],
+        "bonus": "2"
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Crossbows",
+        "trainingLevel": "basic",
+        "masterPerk": "You can reload this crossbow one-handed. If you have not used your Attack action this turn, you may make one attack with this weapon as a bonus action."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "hand-crossbow-0052",
+  "_key": "!items!hand-crossbow-0052"
+}

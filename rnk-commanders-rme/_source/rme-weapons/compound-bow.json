@@ -1,0 +1,58 @@
+{
+  "name": "Compound Bow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>A precision-engineered bow with a clockwork cam system that provides mechanical advantage at full draw. Arrows fly with extraordinary force and can punch through multiple enemies in a line at full power.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Ranged d6 (100/400), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Ranged d10 (200/800), Piercing, Reload (object interaction), Clockwork, Puncture</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Ranged d10 (200/800), Piercing, Reload (object interaction), Clockwork, Puncture, Powerful Blow</td></tr><tr><td><strong>Master Perk</strong></td><td>Powerful Blow: the attack deals normal damage to the primary target, then the arrow continues in a line and deals full weapon damage to a second target behind the first.</td></tr></table>"
+    },
+    "price": {
+      "value": 250,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 200,
+      "long": 800,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bows",
+        "trainingLevel": "basic",
+        "masterPerk": "Powerful Blow: the attack deals normal damage to the primary target and full weapon damage to a second target in line behind them."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "compound-bow-0033",
+  "_key": "!items!compound-bow-0033"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Dagger",
+  "type": "weapon",
+  "img": "icons/weapons/swords/dagger-straight-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The universal sidearm of adventurers everywhere. Concealable, throwable, and deadly in skilled hands, the dagger is as much a tool as a weapon \u00e2\u20ac\u201d and masters make it terrifyingly effective.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Finesse, Light, Melee d4, Thrown (20/60), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Finesse, Light, Melee d4, Thrown (20/60), Balanced, Conceal</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Finesse, Light, Melee d4, Thrown (20/60), Balanced, Conceal \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>You may make one additional attack with this weapon as a bonus action.</td></tr></table>"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Dueling Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "You may make one additional attack with this weapon as a bonus action."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "dagger-0061",
+  "_key": "!items!dagger-0061"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Mallet",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-war.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy-headed mallet used by craftsmen and soldiers alike. Its flat face can drive spikes or crack skulls, and it flies surprisingly well when hurled with purpose.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Melee d4, Bludgeoning</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Light, Melee d4, Thrown (20/60), Bludgeoning, Disarm</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Light, Melee d4, Thrown (20/60), Bludgeoning, Disarm, bonus shove</td></tr><tr><td><strong>Master Perk</strong></td><td>When you take the Attack action with this weapon, you may use your bonus action to attempt a shove. On a successful shove, the target also takes weapon damage.</td></tr></table>"
+    },
+    "price": {
+      "value": 3,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "trainingLevel": "basic",
+        "masterPerk": "When you take the Attack action, you may use your bonus action to shove a target. On a successful shove, the target also takes weapon damage."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "mallet-0026",
+  "_key": "!items!mallet-0026"
+}

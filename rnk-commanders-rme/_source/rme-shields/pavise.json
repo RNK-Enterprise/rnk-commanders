@@ -1,0 +1,51 @@
+{
+  "name": "Pavise",
+  "type": "equipment",
+  "img": "icons/equipment/shield/heater-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>+1 AC, 15 lbs, 35 gp</em></p><p>A pavise is a lighter tower shield with a central spike to drive into the ground, or a set of legs to allow the shield to stand freely. While deployed, you can use it as cover. Unfortunately it is unwieldable as a normal shield, only able to be worn on the back. While wearing it, you are unable to equip any other shield, and only add a maximum of +2 from your Dexterity modifier to your AC, as its size is ungainly and cumbersome.</p><p>While deployed, a Pavise can be knocked down if the enemy succeeds on an Athletics Check against your weapon DC. As a bonus action you can pick up a pavise and either deploy it again or don it on your back.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Basic</strong></td><td>While worn, you gain +1 AC and negate any flanking bonus any enemy might have on you. As a bonus action, you can deploy the shield to solid ground, which takes up a 5 ft square space. While the shield is between you and any enemy, you gain the benefits of half cover.</td></tr><tr><td><strong>Master</strong></td><td>While the shield is between you and any enemy, you gain the benefits of three-quarters cover. Additionally, an enemy has disadvantage on any roll made to knock your shield down while you use it as cover.</td></tr></table>"
+    },
+    "price": {
+      "value": 35,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 15,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 1,
+      "dex": 2
+    },
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "equipped": false,
+    "rarity": "common",
+    "strength": 13
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Shields",
+        "shieldType": "Pavise",
+        "trainingLevel": "basic",
+        "acBonus": 1,
+        "donAction": "N/A",
+        "dexLimit": 2
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "pavise-0004",
+  "_key": "!items!pavise-0004"
+}

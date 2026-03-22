@@ -1,0 +1,61 @@
+{
+  "name": "Firelance",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-musket-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A polearm-mounted firearm that can both stab in melee and unleash a cone of fire at close range.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>Two-Handed, Melee d12, Ranged d10 (15 ft cone), Reload (bonus action), Firearm</td><td></td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 12,
+        "types": [
+          "piercing",
+          "fire"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 15,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two",
+      "fir",
+      "rel"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Firearms",
+        "trainingLevel": "basic",
+        "masterPerk": "As an action, you sweep the lance around you, forcing all creatures within 10 ft to succeed on a Dexterity saving throw or become blinded until the end of their next turn. The weapon must be loaded to use this action."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "firelance-0071",
+  "_key": "!items!firelance-0071"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Sling Staff",
+  "type": "weapon",
+  "img": "icons/weapons/slings/sling-wrapped-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A staff with a sling cup at one end, allowing both melee and ranged attacks. The staff's length also enables the Double Ended technique, striking with the opposite end.</p><p><strong>Basic:</strong> Two-Handed, Melee d6, Ranged d6 (150/600), Reload (free), Double Ended d8, Entangle</p>"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 150,
+      "long": 600,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "Your Double Ended attacks deal weapon damage plus your Strength modifier to your grappled target, and still automatically hit."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "sling-staff-0102",
+  "_key": "!items!sling-staff-0102"
+}

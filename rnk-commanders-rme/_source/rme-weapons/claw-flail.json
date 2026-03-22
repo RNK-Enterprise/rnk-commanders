@@ -1,0 +1,59 @@
+{
+  "name": "Claw Flail",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-ball-chain-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A light flail tipped with hooked claws, capable of entangling and wounding enemies with quick, nimble strikes.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Light, Melee d6</td><td>Clockwork, Entangle, Nimble, Trip, Wound</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 35,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "slashing",
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Flails",
+        "trainingLevel": "basic",
+        "masterPerk": "If you land an attack using your Conceal property, the enemy cannot make a saving throw against your entangle attack, and suffers disadvantage on its saving throw against any other use of your Weapon DC."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "claw-flail-0077",
+  "_key": "!items!claw-flail-0077"
+}

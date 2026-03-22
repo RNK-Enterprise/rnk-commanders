@@ -1,0 +1,61 @@
+{
+  "name": "Blunderbuss",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-blunderbuss-bronze.webp",
+  "system": {
+    "description": {
+      "value": "<p>A wide-mouthed, short-ranged firearm that unleashes a devastating spread of shot, capable of knocking enemies off their feet.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>Two-Handed, Ranged 2d8+5 (40/60), Reload (attack), Firearm</td><td>Knockback, Trip, Wound</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": "+5"
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 40,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "two",
+      "fir",
+      "rel",
+      "amm"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Firearms",
+        "trainingLevel": "basic",
+        "masterPerk": "On hit, a target within 15 ft must succeed on a Strength saving throw or becomes your choice of pushed back 5ft or prone."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "blunderbuss-0070",
+  "_key": "!items!blunderbuss-0070"
+}

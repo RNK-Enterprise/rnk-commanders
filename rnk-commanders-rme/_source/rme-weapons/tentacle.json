@@ -1,0 +1,60 @@
+{
+  "name": "Tentacle",
+  "type": "weapon",
+  "img": "icons/creatures/claws/tentacle-kraken-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A natural weapon attack using the creature's tentacle or appendage. Damage values are determined by the creature's stat block; RME properties apply on top of the creature's base attack.</p><p><strong>Basic:</strong> Finesse, Light, Natural, Melee, Entangle, Trip</p>"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Natural Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "When your target fails a saving throw against your Entangle attack, they become restrained and grappled."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "tentacle-0110",
+  "_key": "!items!tentacle-0110"
+}

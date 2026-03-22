@@ -1,0 +1,94 @@
+/* Commander's Revised Martial Equipment - Styles */
+
+.rme-training-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.rme-training-badge.rme-untrained {
+    background: #8b4513;
+    color: #fff;
+    border: 1px solid #6b3410;
+}
+
+.rme-training-badge.rme-basic {
+    background: #2e5a2e;
+    color: #fff;
+    border: 1px solid #1e3a1e;
+}
+
+.rme-training-badge.rme-master {
+    background: #8b6914;
+    color: #fff;
+    border: 1px solid #6b5010;
+}
+
+/* Journal entry styling for RME rules */
+.rme-journal h1 {
+    font-family: "Modesto Condensed", "Palatino Linotype", serif;
+    color: #58180d;
+    border-bottom: 2px solid #c9ad6a;
+    padding-bottom: 4px;
+}
+
+.rme-journal h2 {
+    font-family: "Modesto Condensed", "Palatino Linotype", serif;
+    color: #58180d;
+    border-bottom: 1px solid #c9ad6a;
+}
+
+.rme-journal h3 {
+    color: #58180d;
+    font-weight: bold;
+}
+
+.rme-journal .rme-property-name {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.05em;
+}
+
+.rme-journal .rme-stat-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0;
+}
+
+.rme-journal .rme-stat-table th {
+    background: #e0d5c0;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #58180d;
+}
+
+.rme-journal .rme-stat-table td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rme-journal .rme-stat-table tr:nth-child(even) {
+    background: #f5f0e8;
+}
+
+.rme-journal .rme-callout {
+    background: #fdf1dc;
+    border: 2px solid #c9ad6a;
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin: 10px 0;
+}
+
+.rme-journal .rme-callout-title {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    color: #58180d;
+    margin-bottom: 4px;
+}

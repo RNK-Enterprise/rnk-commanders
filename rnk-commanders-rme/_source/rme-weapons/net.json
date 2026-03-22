@@ -1,0 +1,59 @@
+{
+  "name": "Net",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/net-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A weighted net thrown to entangle opponents. The net itself deals no damage but can incapacitate enemies effectively.</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 0,
+        "denomination": 1,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": 20,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "The net's AC is equal to your weapon DC. If you have advantage on an Entangle attack, your target has disadvantage on the check made to escape."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "net-0137",
+  "_key": "!items!net-0137"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Combat Blade Master",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choose 4 combat blades to gain master training when you take this feat.</p><ul><li>+1 to Strength and Dexterity saving throws.</li><li>On your turn, you can use your reaction to assume a parrying stance. Until your next turn or until your Combat Blade is no longer equipped, you gain a +1 weapon AC with a One-Handed combat blade, or +2 weapon AC with a Two-Handed or two hands on a Versatile combat blade against melee attacks.</li><li>You have advantage on all opportunity attacks. On your turn you can use your reaction to enter a readied stance. While readied, making an opportunity attack does not use your reaction.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "featType": "groupMaster"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "combat-blade-master-0004",
+  "_key": "!items!combat-blade-master-0004"
+}

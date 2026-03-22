@@ -1,0 +1,56 @@
+{
+  "name": "Estoc",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-silver-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A long, stiff thrusting sword built to punch through plate armor and chainmail. The estoc has no cutting edge \u00e2\u20ac\u201d only a rigid triangular or square blade that concentrates force on a needle point.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Finesse, Melee d6, Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Finesse, Melee d8, Brace, Punch, Wound</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Finesse, Melee d8, Brace, Punch, Wound \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>If you have not used your Attack action or held action this turn, you may make one attack with this weapon as a bonus action.</td></tr></table>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Dueling Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "If you have not used your Attack action or held action this turn, you may make one attack with this weapon as a bonus action."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "estoc-0062",
+  "_key": "!items!estoc-0062"
+}

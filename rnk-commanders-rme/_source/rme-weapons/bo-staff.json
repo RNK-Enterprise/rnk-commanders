@@ -1,0 +1,59 @@
+{
+  "name": "Bo Staff",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "description": {
+      "value": "<p>A long hardwood staff used in martial arts traditions, wielded with flowing strikes from both ends. Lightweight and deceptively quick in trained hands.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Melee d4, Bludgeoning</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Finesse, Melee d6, Double Ended d4, Bludgeoning, Trip</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Finesse, Melee d6, Double Ended d4, Bludgeoning, Trip, enhanced flow attacks</td></tr><tr><td><strong>Master Perk</strong></td><td>If you have Extra Attack, you may make two Double Ended attacks instead of one, or make two opportunity attacks instead of one per reaction.</td></tr></table>"
+    },
+    "price": {
+      "value": 3,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "trainingLevel": "basic",
+        "masterPerk": "If you have Extra Attack, you may make two Double Ended attacks or two opportunity attacks instead of one per reaction."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "bo-staff-0021",
+  "_key": "!items!bo-staff-0021"
+}

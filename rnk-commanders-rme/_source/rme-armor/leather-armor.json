@@ -1,0 +1,46 @@
+{
+  "name": "Leather Armor",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Moderately thin, unhardened utility leather that offers slight protection but is cheap and flexible. You can don this armor with an object interaction and can doff it for free.</p><h3>RME Training Levels</h3><table class='rme-stat-table'><tr><th>Training</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Disadvantage on ability checks, saving throws, or attack rolls involving STR/DEX. Cannot cast spells.</td></tr><tr><td><strong>Basic</strong></td><td>Normal proficiency.</td></tr><tr><td><strong>Master</strong></td><td>Count only half weight for encumbrance. Don/doff in half time.</td></tr></table>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 11,
+      "dex": null
+    },
+    "type": {
+      "value": "light",
+      "baseItem": "leather"
+    },
+    "properties": [],
+    "equipped": false,
+    "rarity": "common",
+    "strength": null
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Armor",
+        "subgroup": "Light",
+        "trainingLevel": "basic"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "leather-armor-0001",
+  "_key": "!items!leather-armor-0001"
+}

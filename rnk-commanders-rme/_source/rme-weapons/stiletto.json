@@ -1,0 +1,59 @@
+{
+  "name": "Stiletto",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/pick-war-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A slender, easily concealed piercing weapon designed to punch through gaps in armor with precise, deadly thrusts.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Finesse, Light, Melee d4</td><td>Conceal, Punch, Puncture</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Hammers & Picks",
+        "trainingLevel": "basic",
+        "masterPerk": "You can use a bonus action to attempt to shove a creature you are entangling."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "stiletto-0092",
+  "_key": "!items!stiletto-0092"
+}

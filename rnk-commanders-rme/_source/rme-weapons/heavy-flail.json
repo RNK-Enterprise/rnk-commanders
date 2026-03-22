@@ -1,0 +1,68 @@
+{
+  "name": "Heavy Flail",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-round-spiked-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A reliable one-handed flail that can be used two-handed for greater damage, with entangling and punching capabilities.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Heavy, Melee d8, Versatile d10</td><td>Entangle, Punch, Trip, Wound</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      }
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "hvy",
+      "ver"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Flails",
+        "trainingLevel": "basic",
+        "masterPerk": "If your target successfully saves against your weapon DC, you can make a weapon attack as part of the same action. This additional attack must be a normal weapon attack, and cannot be a property attack forcing another saving throw."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "heavy-flail-0080",
+  "_key": "!items!heavy-flail-0080"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Arquebus",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-musket-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A long, heavy two-handed firearm capable of devastating ranged fire and fitted with a bayonet for close combat.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>Two-Handed, Heavy, Ranged 2d10+5 (300/900), Reload (attack), Firearm</td><td>Punch, Puncture, Sighted</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 10,
+        "types": [
+          "piercing"
+        ],
+        "bonus": "+5"
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 300,
+      "long": 900,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "two",
+      "hvy",
+      "fir",
+      "rel",
+      "amm"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Firearms",
+        "trainingLevel": "basic",
+        "masterPerk": "You can arm the bayonet with an object interaction and the arquebus gains Brace, Double Ended d6, Finesse, Reach."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "arquebus-0069",
+  "_key": "!items!arquebus-0069"
+}

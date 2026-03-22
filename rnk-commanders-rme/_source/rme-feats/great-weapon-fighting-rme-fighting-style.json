@@ -1,0 +1,53 @@
+{
+  "name": "Great Weapon Fighting (RME Fighting Style)",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a warrior that makes the best use of full body techniques while fighting. While wielding a melee weapon with two hands, you can roll damage twice and take the higher result. As an action, you can make a single attack roll, targeting a number of enemies equal to your Strength modifier that are within reach.</p>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "fightingStyle"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "great-weapon-fighting-rme-fighting-style-0023",
+  "_key": "!items!great-weapon-fighting-rme-fighting-style-0023"
+}

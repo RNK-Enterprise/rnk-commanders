@@ -1,0 +1,57 @@
+{
+  "name": "Ikakalaka",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-broad-stone.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy chopping sword of island origin, with a broad serrated blade that both deflects incoming blows and punishes enemies who close in. Its weight makes it unforgiving but powerful.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Heavy, Melee d8, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Heavy, Melee d10, Deflect, Punch</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Heavy, Melee d10, Deflect, Punch \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>Deflect now works against ranged attacks. Knockback and Trip effects from this weapon benefit from the Keen property.</td></tr></table>"
+    },
+    "price": {
+      "value": 30,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "Deflect now works against ranged attacks. Knockback and Trip effects from this weapon benefit from the Keen property."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "ikakalaka-0042",
+  "_key": "!items!ikakalaka-0042"
+}

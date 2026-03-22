@@ -1,0 +1,62 @@
+{
+  "name": "Sling Tube",
+  "type": "weapon",
+  "img": "icons/weapons/slings/sling-wrapped-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A rigid tube-shaped sling capable of launching various types of ammunition including bullets, bolts, and arrows. The tube's design allows for a wide spread of fire.</p><p><strong>Basic:</strong> Two-Handed, Ranged d6 (60/180), Reload (object interaction), Conceal, Hipshot</p><p><em>Damage types: Bludgeoning, Piercing, or Slashing depending on ammunition used.</em></p>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 60,
+      "long": 180,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "two",
+      "rel"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "You can pack up to a full container of ammunition into the sling tube. As an action, you can launch all the ammunition in a 30 foot cone. Each creature in the cone must make a Dexterity saving throw. A target takes a number of weapon dice damage equal to your proficiency bonus on a failed save, or none on a success."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "sling-tube-0103",
+  "_key": "!items!sling-tube-0103"
+}

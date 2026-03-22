@@ -1,0 +1,58 @@
+{
+  "name": "Unarmed Strike",
+  "type": "weapon",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": {
+      "value": "<p>A natural weapon attack using fists, feet, head, or any other part of the body. Damage is 1d4 + Strength modifier bludgeoning damage. RME properties apply on top of the base attack.</p><p><strong>Basic:</strong> Finesse, Natural, Melee d4, Nimble</p>"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Natural Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "You can make an Unarmed strike as an off-hand attack even if your hands are occupied. You can spend a bonus action to shove or perform a Disarm attack."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "unarmed-strike-0111",
+  "_key": "!items!unarmed-strike-0111"
+}

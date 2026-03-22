@@ -1,0 +1,59 @@
+{
+  "name": "Slam",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-hammer-destructive-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A powerful natural weapon attack using the creature's body mass \u00e2\u20ac\u201d a fist, foot, or whole body impact. Damage values are determined by the creature's stat block; RME properties apply on top of the creature's base attack.</p><p><strong>Basic:</strong> Heavy, Natural, Melee, Brace, Disarm, Stagger</p>"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "hvy",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Natural Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "If you move at least 20ft straight toward an enemy and hit with a slam attack in the same turn, that enemy must succeed on a Strength saving throw or be knocked prone and you can make an additional slam attack as a bonus action."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "slam-0108",
+  "_key": "!items!slam-0108"
+}

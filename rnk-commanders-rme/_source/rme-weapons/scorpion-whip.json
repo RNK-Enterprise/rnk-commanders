@@ -1,0 +1,60 @@
+{
+  "name": "Scorpion Whip",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-pointed-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A flexible whip tipped with sharp spines like a scorpion's tail, capable of entangling and puncturing opponents at reach.</p>"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "rch"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Whips",
+        "trainingLevel": "basic",
+        "masterPerk": "If you choose a different target than your previous attack, the attack roll gains +2."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "scorpion-whip-0143",
+  "_key": "!items!scorpion-whip-0143"
+}

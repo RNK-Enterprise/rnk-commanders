@@ -1,0 +1,59 @@
+{
+  "name": "Light Flail",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-ball-chain-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A quick, light flail suited for disarming and tripping opponents with agile, one-handed strikes.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Light, Melee d6</td><td>Disarm, Trip</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 8,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Flails",
+        "trainingLevel": "basic",
+        "masterPerk": "You can reroll any attack you miss, but must take the new result."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "light-flail-0081",
+  "_key": "!items!light-flail-0081"
+}

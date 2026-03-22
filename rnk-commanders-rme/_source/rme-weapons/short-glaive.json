@@ -1,0 +1,57 @@
+{
+  "name": "Short Glaive",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-broad-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>A compact polearm-style blade combining a glaive's cutting edge with a sword's maneuverability. The short glaive enables mobile fighters to brace against charges, lunge forward, and disengage without opening themselves to counterattack.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Finesse, Melee 2d4, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Finesse, Melee 3d4, Balanced, Brace, Lunge</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Finesse, Melee 3d4, Balanced, Brace, Lunge \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>When you take the Dash action, you do not provoke opportunity attacks and may make one attack at any point during your movement.</td></tr></table>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 3,
+        "denomination": 4,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "When you take the Dash action, you do not provoke opportunity attacks and may make one attack at any point during your movement."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "short-glaive-0049",
+  "_key": "!items!short-glaive-0049"
+}

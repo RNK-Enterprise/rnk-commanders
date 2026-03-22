@@ -1,0 +1,58 @@
+{
+  "name": "Yumi",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>An asymmetric composite bow from eastern traditions, taller than the archer who wields it and shot from a low grip. Highly accurate at range with exceptional technique, and surprisingly effective from the ground at close range.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Ranged d6 (80/320), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Ranged d8 (100/400), Piercing, Sighted</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Ranged d8 (100/400), Piercing, Sighted, fluid targeting</td></tr><tr><td><strong>Master Perk</strong></td><td>You gain +2 to attack rolls against a different target from your previous attack. While on foot, you do not suffer disadvantage on attack rolls while prone.</td></tr></table>"
+    },
+    "price": {
+      "value": 65,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 100,
+      "long": 400,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bows",
+        "trainingLevel": "basic",
+        "masterPerk": "+2 to attack rolls when targeting a different creature than your previous attack. While on foot, you do not suffer disadvantage on attacks while prone."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "yumi-0038",
+  "_key": "!items!yumi-0038"
+}

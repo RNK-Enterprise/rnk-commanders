@@ -1,0 +1,58 @@
+{
+  "name": "Harpoon",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/trident-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy barbed spear designed to pierce and lodge in flesh, preventing escape. Favored by hunters and fishermen alike.</p>"
+    },
+    "price": {
+      "value": 11,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Spears",
+        "trainingLevel": "basic",
+        "masterPerk": "You drag an enemy toward you a number of feet equal to twice your Strength score, and your target suffers disadvantage to Strength saving throws while it is impaled."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "harpoon-0122",
+  "_key": "!items!harpoon-0122"
+}

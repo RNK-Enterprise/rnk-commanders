@@ -1,0 +1,62 @@
+{
+  "name": "Lajatang",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>A double-ended polearm with crescent-shaped blades at both ends. A weapon of rare elegance and deadly efficiency, demanding exceptional skill to master its spinning defensive and offensive techniques.</p><p><strong>Basic:</strong> Two-Handed, Finesse, Heavy, Reach, Melee d10, Double Ended d10, Brace</p>"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "hvy",
+      "rch",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Polearms",
+        "trainingLevel": "basic",
+        "masterPerk": "On your turn, you can spend your reaction to enter a Defensive Stance, negating any flanking bonus or ability any enemy might have for flanking you or having the enemy's ally near you, such as pack tactics or sneak attack. You can use Double Ended twice on your turn, but your second attack must be against a different target than your first."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "lajatang-0116",
+  "_key": "!items!lajatang-0116"
+}

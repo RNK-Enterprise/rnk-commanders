@@ -1,0 +1,59 @@
+{
+  "name": "Greataxe",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-great-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>A massive two-handed axe that trades subtlety for raw destructive power, capable of felling enemies and disarming them in one sweep.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Damage</th><th>Special</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy</td><td>Melee d12 (S)</td><td>Disarm, Trip</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 12,
+        "types": [
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "greataxe"
+    },
+    "properties": [
+      "hvy",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Axes",
+        "trainingLevel": "basic",
+        "masterPerk": "On a mighty blow (critical hit), add one additional damage die to the total damage dealt."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "greataxe-0012",
+  "_key": "!items!greataxe-0012"
+}

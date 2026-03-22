@@ -1,0 +1,58 @@
+{
+  "name": "RME: Training & Class Proficiencies",
+  "img": "icons/sundries/books/book-worn-brown.webp",
+  "pages": [
+    {
+      "name": "Training Levels",
+      "type": "text",
+      "text": {
+        "content": "<div class='rme-journal'><h1>Training Levels</h1><div class='rme-callout'><div class='rme-callout-title'>Training Levels are Important!</div><p>Each character now has three levels of training with all equipment: <strong>Untrained, Basic, and Master.</strong> With each level of training, the character gains more abilities, higher damage, and greater flexibility with the equipment presented here.</p></div><h2>Translating Weapon Proficiencies to Training Levels</h2><p>Look at your species and any feats you've taken; note any proficiencies with weapons, armor, and shields. These proficiencies become Basic training.</p><p>When a class lists proficiency with \"simple weapons,\" you instead have Basic training with all weapons in the simple weapons table in the reference section. Anything you do not have proficiency with means you are at the Untrained level.</p><p>If any proficiencies are redundant, you instead have master training with that equipment. For example, a Drow has proficiency with hand crossbows, shortswords and rapiers, and the rogue class gives proficiency with those as well. So a Drow Rogue would have master training with hand crossbows, shortswords, and rapiers.</p><p>All martial classes which give proficiency with \"martial weapons\" are instead translated into Basic training for up to 8 weapon categories of the player's choosing.</p></div>",
+        "format": 1
+      },
+      "sort": 100000,
+      "_id": "e0e20accb8be20d6"
+    },
+    {
+      "name": "Downtime Training",
+      "type": "text",
+      "text": {
+        "content": "<div class='rme-journal'><h1>Downtime Training</h1><p>You can also increase your training with any equipment group. To train up from Untrained to Basic for a certain equipment group, you must find a capable teacher.</p><p>Each day you train for at least an hour with your trainer, you add your Intelligence score to a total. Your trainer additionally makes their choice of Performance, History, Athletics or Acrobatics check once per day, and the DM rolls 2d10 + 5. If your trainer beats the DMs roll, the trainer adds their respective ability score from the skill check they rolled to your total as well. When your total reaches at least 500, you have completed the training and have Basic training with the equipment group.</p><p>To train from Basic to Master, you train with a single equipment, and your training total must reach at least 2500, starting back from 0, but once your total exceeds this number, you have completed the training and have Master training with the selected equipment.</p></div>",
+        "format": 1
+      },
+      "sort": 200000,
+      "_id": "3ed4379d5f999473"
+    },
+    {
+      "name": "Class Training",
+      "type": "text",
+      "text": {
+        "content": "<div class='rme-journal'><h1>Class Training and Starting Equipment</h1><table class='rme-stat-table'><tr><th>Class</th><th>Armor</th><th>Weapons</th></tr><tr><td>Artificer</td><td>Light, medium, shields</td><td>All simple, Crossbows, Firearms, Clockwork weapons</td></tr><tr><td>Barbarian</td><td>Light, medium, Shields (no Clockwork)</td><td>8 weapon categories (no Firearms, Crossbows, Clockwork)</td></tr><tr><td>Bard</td><td>Light</td><td>Simple, Dueling Blades, Throwing, plus interceptor, longsword, scimitar</td></tr><tr><td>Cleric</td><td>Light, medium, shields (no Clockwork)</td><td>All simple</td></tr><tr><td>Druid</td><td>Light, shields</td><td>Ambush, Bludgeons, Launch, Spears, Throwing (no Clockwork), plus named weapons</td></tr><tr><td>Fighter</td><td>All armors and shields</td><td>8 weapon categories</td></tr><tr><td>Monk</td><td>None</td><td>Monk weapons table, One-Handed simple, weapons with basic training</td></tr><tr><td>Paladin</td><td>All armor, shields</td><td>8 weapon categories (no Firearms, Throwing, Conceal weapons)</td></tr><tr><td>Ranger</td><td>Light, medium, shields (no Clockwork)</td><td>8 weapon categories (no Polearms, Flails, Clockwork)</td></tr><tr><td>Rogue</td><td>Light</td><td>Simple, Dueling Blades, Conceal weapons</td></tr><tr><td>Sorcerer</td><td>None</td><td>None</td></tr><tr><td>Warlock</td><td>Light</td><td>All simple</td></tr><tr><td>Wizard</td><td>None</td><td>None</td></tr></table></div>",
+        "format": 1
+      },
+      "sort": 300000,
+      "_id": "cf39dd9e2e0b3f71"
+    },
+    {
+      "name": "Definitions",
+      "type": "text",
+      "text": {
+        "content": "<div class='rme-journal'><h1>Definitions</h1><ul><li><strong>Attacher</strong> - Any damage which is not built into a normal weapon that is dealt on hits, such as Sneak attack, Smite, Elemental bonus damage, etc.</li><li><strong>Equipment</strong> - Any items listed in this brew. Armor, shields, and weapons are equipment.</li><li><strong>Equipped</strong> - Items are equipped when they are held with as many hands as is required to use it properly.</li><li><strong>Mighty/Powerful Blow</strong> - A mighty blow is when your attack roll is at least 5 higher than the target's AC, while a powerful blow is when your attack roll is at least 10 higher. A powerful blow supersedes a mighty blow.</li><li><strong>Off-Hand</strong> - This is the hand which is wielding the second weapon while dual wielding.</li><li><strong>Weapon AC</strong> - This is a bonus to your AC that is in addition to your armor and shield AC. Your weapon AC bonus is the highest bonus you are currently given from your weapons, e.g. a +2 weapon AC bonus replaces a +1 bonus. Weapon AC only applies to melee attacks. Ranged attacks ignore any Weapon AC.</li></ul></div>",
+        "format": 1
+      },
+      "sort": 400000,
+      "_id": "161a62bc80ec9829"
+    }
+  ],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "journalType": "training"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "rme-training-class-proficiencies-0002"
+}

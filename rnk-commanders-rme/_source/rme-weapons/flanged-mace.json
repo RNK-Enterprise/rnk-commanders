@@ -1,0 +1,56 @@
+{
+  "name": "Flanged Mace",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-flanged-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A mace fitted with multiple steel flanges that slice through gaps in armor. Equally effective at battering shields and shearing mail rings.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Melee d4, Bludgeoning</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Melee d6, Bludgeoning or Slashing, Punch, Sunder</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Melee d6, Bludgeoning or Slashing, Punch, Sunder (enhanced), Powerful Blow</td></tr><tr><td><strong>Master Perk</strong></td><td>Sunder always reduces the target's AC by 2 on a failed save. A Powerful Blow automatically triggers a Sunder effect without requiring a save.</td></tr></table>"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "trainingLevel": "basic",
+        "masterPerk": "Sunder always reduces the target's AC by 2. A Powerful Blow automatically applies the Sunder effect without a save."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "flanged-mace-0022",
+  "_key": "!items!flanged-mace-0022"
+}
