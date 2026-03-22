@@ -1,0 +1,46 @@
+{
+  "name": "Breastplate",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Wearing just the breastplate of a suit of plate armor, this armor provides easier mobility and more protection than the chain shirt or ring mail. However, plate is expensive to make and thus has a greatly increased cost. You can don this armor with an action, or a bonus action with help, and can doff it with a bonus action.</p>"
+    },
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 15,
+      "dex": 2
+    },
+    "type": {
+      "value": "medium",
+      "baseItem": "breastplate"
+    },
+    "properties": [],
+    "equipped": false,
+    "rarity": "common",
+    "strength": null
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Armor",
+        "subgroup": "Medium",
+        "trainingLevel": "basic"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "breastplate-0006",
+  "_key": "!items!breastplate-0006"
+}

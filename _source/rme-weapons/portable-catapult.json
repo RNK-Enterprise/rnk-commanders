@@ -1,0 +1,61 @@
+{
+  "name": "Portable Catapult",
+  "type": "weapon",
+  "img": "icons/weapons/slings/sling-wrapped-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A compact, deployable siege device capable of hurling heavy projectiles at enemies. Once set up, it can unleash devastating barrages of ammunition.</p><p><strong>Basic:</strong> Two-Handed, Affixed, Heavy, Ranged 2d8 (150/600), Reload (attack action), Knockback, Punch, Stagger, Trip</p>"
+    },
+    "price": {
+      "value": 175,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 20,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 8,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 150,
+      "long": 600,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "hvy",
+      "two",
+      "rel"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "You can load a full container of ammunition, e.g. 20 arrows or 50 needles, into the basket. As an action, you pick a point in range and release the basket. Each creature within a 20 ft radius cylinder, 60ft high centered on your point must make a Dexterity saving throw, taking a number of weapon damage dice equal to your proficiency bonus on a failed save, or half on a success."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "portable-catapult-0099",
+  "_key": "!items!portable-catapult-0099"
+}

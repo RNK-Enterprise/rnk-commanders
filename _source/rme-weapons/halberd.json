@@ -1,0 +1,60 @@
+{
+  "name": "Halberd",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-halberd-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p>A pole weapon combining an axe blade with a spear tip and hook, offering versatile attack options at extended reach.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Damage</th><th>Special</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Reach</td><td>Melee 2d6 (P/S)</td><td>Brace, Trip</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 35,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 7,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "halberd"
+    },
+    "properties": [
+      "hvy",
+      "rch",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Axes",
+        "trainingLevel": "basic",
+        "masterPerk": "Trip attacks made with this weapon impose disadvantage on the target's saving throw to resist being knocked prone."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "halberd-0013",
+  "_key": "!items!halberd-0013"
+}

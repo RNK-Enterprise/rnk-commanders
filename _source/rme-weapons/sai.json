@@ -1,0 +1,56 @@
+{
+  "name": "Sai",
+  "type": "weapon",
+  "img": "icons/weapons/swords/dagger-straight-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A pronged iron weapon designed to catch and disarm blades. Small enough to conceal, the sai turns defense into offense \u00e2\u20ac\u201d a miss against the sai's wielder may cost the attacker their own weapon.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Finesse, Light, Melee d4, Piercing</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Finesse, Light, Melee d4, Conceal, Deflect, Nimble</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Finesse, Light, Melee d4, Conceal, Deflect, Nimble \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>You gain +1 to AC while wielding this weapon. When an enemy misses you with a melee attack, they must succeed on a Strength or Dexterity saving throw or drop their weapon.</td></tr></table>"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Dueling Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "You gain +1 to AC while wielding this weapon. When an enemy misses you with a melee attack, they must succeed on a Strength or Dexterity saving throw or drop their weapon."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "sai-0066",
+  "_key": "!items!sai-0066"
+}

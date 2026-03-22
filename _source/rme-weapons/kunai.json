@@ -1,0 +1,60 @@
+{
+  "name": "Kunai",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/knife-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A multi-purpose blade used for throwing, climbing, and close combat. Its ring pommel allows for spinning deflection techniques.</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.25,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "You can use Deflect within your normal range, and for any creature of your choice."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "kunai-0135",
+  "_key": "!items!kunai-0135"
+}

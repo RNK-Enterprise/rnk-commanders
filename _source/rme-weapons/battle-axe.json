@@ -1,0 +1,65 @@
+{
+  "name": "Battle Axe",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-battle-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>A reliable single-bladed axe sized for one-handed use, capable of devastating sweeping blows and powerful two-handed grip.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Damage</th><th>Special</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>One-Handed, Versatile</td><td>Melee d8 (S), Versatile d10</td><td>Trip</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "slashing"
+        ],
+        "bonus": ""
+      }
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "battleaxe"
+    },
+    "properties": [
+      "ver"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Axes",
+        "trainingLevel": "basic",
+        "masterPerk": "Reroll 1s and 2s on damage dice. When wielded two-handed, the axe also gains Thrown with a damage die of d12 (20/60 ft range)."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "battle-axe-0010",
+  "_key": "!items!battle-axe-0010"
+}

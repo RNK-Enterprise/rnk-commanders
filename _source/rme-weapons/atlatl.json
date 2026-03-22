@@ -1,0 +1,59 @@
+{
+  "name": "Atlatl",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/javelin-tip-glowing-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>A throwing board used to hurl darts or javelins with great force. The atlatl extends the thrower's arm, providing additional leverage and range.</p><p><strong>Basic:</strong> One-Handed, Ranged d8 (100/300), Reload (object interaction), Punch</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 100,
+      "long": 300,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "rel"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "If you score a mighty blow, before the target's next turn, the next attack against this target gains advantage."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "atlatl-0097",
+  "_key": "!items!atlatl-0097"
+}

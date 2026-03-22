@@ -1,0 +1,48 @@
+{
+  "name": "Lacquered Leather",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-leather-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>This leather has been boiled in wax or water and painted with lacquer to toughen it as hard as wood. It offers superior protection to other light armors for a premium, but the hard plates create more noise than softer armors. You can don this armor in 5 minutes, or 1 minute if you have help. You can doff it in 1 minute, or an action with help.</p>"
+    },
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 13,
+      "dex": null
+    },
+    "type": {
+      "value": "light",
+      "baseItem": ""
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "equipped": false,
+    "rarity": "common",
+    "strength": null
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Armor",
+        "subgroup": "Light",
+        "trainingLevel": "basic"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "lacquered-leather-0003",
+  "_key": "!items!lacquered-leather-0003"
+}

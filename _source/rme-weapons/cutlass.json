@@ -1,0 +1,57 @@
+{
+  "name": "Cutlass",
+  "type": "weapon",
+  "img": "icons/weapons/swords/scimitar-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p>A short, slightly curved naval blade built for close-quarters fighting. Equally at home on a ship deck or a city street, the cutlass rewards fighters who press relentlessly forward.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Finesse, Melee d4, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Finesse, Melee d6, Deflect, Punch</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Finesse, Melee d6, Deflect, Punch \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>When you score a critical hit or reduce a target to 0 HP, you may make an extra attack against a different creature within 5 ft. This can repeat if that attack also crits or reduces to 0 HP.</td></tr></table>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2.5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Dueling Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "When you score a critical hit or reduce a target to 0 HP, you may make an extra attack against a different creature within 5 ft. This can repeat if that attack also crits or reduces to 0 HP."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "cutlass-0060",
+  "_key": "!items!cutlass-0060"
+}

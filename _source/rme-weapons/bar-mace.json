@@ -1,0 +1,56 @@
+{
+  "name": "Bar Mace",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-round-spiked-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy iron bar fitted with flanges, capable of crushing blows as well as tearing cuts. Favored by warriors who want a weapon that can crack armor and break bones alike.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Melee d6, Bludgeoning</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Melee d8, Bludgeoning or Slashing or Piercing, Disarm</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Melee d8, Bludgeoning or Slashing or Piercing, Disarm, Powerful Blow</td></tr><tr><td><strong>Master Perk</strong></td><td>Powerful Blow: deals STR modifier bonus damage and the target has disadvantage on attack rolls; the target makes a CON save to end the effect.</td></tr></table>"
+    },
+    "price": {
+      "value": 3,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "trainingLevel": "basic",
+        "masterPerk": "Powerful Blow deals STR modifier bonus damage and the target has disadvantage on attack rolls until they succeed on a CON save to end the effect."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "bar-mace-0020",
+  "_key": "!items!bar-mace-0020"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Falchion",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-falchion-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p>A single-edged curved blade weighted toward the tip for devastating cleaving strikes. Favored by warriors who rely on raw power to overwhelm their opponents.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Melee d8, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Melee d10, Disarm, Punch</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Melee d10, Disarm, Punch \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>Your powerful blows count as critical hits for the purpose of triggering on-crit effects and resistances.</td></tr></table>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "Your powerful blows count as critical hits for the purpose of triggering on-crit effects and resistances."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "falchion-0040",
+  "_key": "!items!falchion-0040"
+}

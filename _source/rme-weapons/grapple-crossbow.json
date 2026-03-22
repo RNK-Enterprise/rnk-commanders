@@ -1,0 +1,57 @@
+{
+  "name": "Grapple Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-heavy-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy mechanized crossbow that fires a grapple bolt trailing a strong cable. Beyond dealing damage, it can entangle, trip, and restrain targets \u00e2\u20ac\u201d or pull them toward the user.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Heavy, Ranged d6 (80/320), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Ranged d6+4 (80/320), Reload bonus, Clockwork, Entangle, Keen, Punch, Trip</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Heavy, Ranged d6+4 (80/320), Reload bonus, Clockwork, Entangle, Keen, Punch, Trip \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>Targets have disadvantage on ability checks to resist the Entangle pull. You may choose to fire the grapple bolt without dealing damage.</td></tr></table>"
+    },
+    "price": {
+      "value": 175,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 13,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": "4"
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 80,
+      "long": 320,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Crossbows",
+        "trainingLevel": "basic",
+        "masterPerk": "Targets have disadvantage on ability checks to resist the Entangle pull. You may choose to fire the grapple bolt without dealing damage."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "grapple-crossbow-0051",
+  "_key": "!items!grapple-crossbow-0051"
+}

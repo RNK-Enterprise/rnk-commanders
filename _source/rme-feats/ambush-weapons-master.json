@@ -1,0 +1,54 @@
+{
+  "name": "Ambush Weapons Master",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-dagger-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choose 4 ambush weapons to gain master training when you take this feat.</p><ul><li>+1 Initiative rolls when holding an ambush weapon.</li><li>A successful hit to a creature that is surprised is a critical hit.</li><li>You can use your reaction to make a single attack against a creature that has missed you with a melee attack, provided you can see it.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Ambush Weapons",
+        "featType": "groupMaster"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "ambush-weapons-master-0000",
+  "_key": "!items!ambush-weapons-master-0000"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Winged Spear",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-simple-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A spear with cross-guards or 'wings' near the blade that prevent over-penetration and allow for deflecting and repositioning opponents.</p>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1.5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      }
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "ver",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Spears",
+        "trainingLevel": "basic",
+        "masterPerk": "If you hit with an attack, you can move your target 5 ft in a direction of your choice, and it can't move closer to you until the start of your next turn."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "winged-spear-0129",
+  "_key": "!items!winged-spear-0129"
+}

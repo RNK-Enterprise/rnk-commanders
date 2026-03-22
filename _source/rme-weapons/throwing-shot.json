@@ -1,0 +1,58 @@
+{
+  "name": "Throwing Shot",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/bolas-leather.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy iron ball thrown with tremendous force, the throwing shot staggers and knocks down enemies through sheer impact.</p>"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "If you score a critical hit or have advantage and both rolls would have hit, your enemy must succeed on a Constitution saving throw or be stunned until the end of its next turn. If you have disadvantage but one dice would have hit, deal your Strength modifier in damage, though this still counts as a miss."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "throwing-shot-0139",
+  "_key": "!items!throwing-shot-0139"
+}

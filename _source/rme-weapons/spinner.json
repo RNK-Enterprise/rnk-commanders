@@ -1,0 +1,56 @@
+{
+  "name": "Spinner",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-simple-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p>A clockwork rotary crossbow that fires razor discs rather than bolts. On full auto it can hit multiple nearby targets with a single trigger pull, making it ideal for crowd control.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Ranged d4 (30/120), Slashing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Ranged 2d4 (30/120), Reload free, Clockwork, Disarm, Keen, Steady</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Ranged 2d4 (30/120), Reload free, Clockwork, Disarm, Keen, Steady \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>As an action, choose a number of targets up to your Intelligence modifier (minimum 1) each within 10 ft of the first target. Make a single attack roll against all of them, dealing damage to each you hit.</td></tr></table>"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 4,
+        "types": [
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Crossbows",
+        "trainingLevel": "basic",
+        "masterPerk": "As an action, choose a number of targets up to your Intelligence modifier (minimum 1) each within 10 ft of the first target. Make a single attack roll against all of them, dealing damage to each you hit."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "spinner-0059",
+  "_key": "!items!spinner-0059"
+}

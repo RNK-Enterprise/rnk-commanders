@@ -1,0 +1,61 @@
+{
+  "name": "Guisarme",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-hooked.webp",
+  "system": {
+    "description": {
+      "value": "<p>A pole weapon with a curved blade designed for hooking and tripping opponents. Its heavy head delivers devastating blows while its hook can tear mounted riders from their saddles.</p><p><strong>Basic:</strong> Two-Handed, Heavy, Reach, Melee d12, Brace, Entangle, Trip</p>"
+    },
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 12,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "hvy",
+      "rch",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Polearms",
+        "trainingLevel": "basic",
+        "masterPerk": "Your trip attacks impose disadvantage on saving throws made to resist them and if you succeed on a trip attack against a mounted enemy, it is automatically dismounted and lands prone in an unoccupied space of your choice within 5ft of its mount."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "guisarme-0115",
+  "_key": "!items!guisarme-0115"
+}

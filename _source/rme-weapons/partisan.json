@@ -1,0 +1,61 @@
+{
+  "name": "Partisan",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-hooked.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy polearm with a broad blade and side prongs designed to catch and deflect enemy weapons. The partisan combines offensive reach with exceptional defensive capabilities.</p><p><strong>Basic:</strong> Two-Handed, Heavy, Reach, Melee 2d6, Brace, Deflect, Riposte</p>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "hvy",
+      "rch",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Polearms",
+        "trainingLevel": "basic",
+        "masterPerk": "You have +1 weapon AC. When an enemy lands an attack on an ally within your range, you can use your reaction to force the enemy to reroll the attack."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "partisan-0118",
+  "_key": "!items!partisan-0118"
+}

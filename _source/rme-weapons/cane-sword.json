@@ -1,0 +1,58 @@
+{
+  "name": "Cane Sword",
+  "type": "weapon",
+  "img": "icons/weapons/daggers/dagger-straight-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A gentleman's walking cane that conceals a slender blade, equally useful as a social accessory and a deadly weapon.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Damage</th><th>Special</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>One-Handed, Finesse</td><td>Melee d6 (B/P/S)</td><td>Conceal, Entangle, Puncture, Riposte, Trip</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 35,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Ambush Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "While dual wielding the cane and sword together, the cane gains Deflect d8. Hitting with the cane deals your DEX modifier in damage (minimum 1), and you gain advantage on your next attack."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "cane-sword-0001",
+  "_key": "!items!cane-sword-0001"
+}

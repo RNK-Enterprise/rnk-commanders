@@ -1,0 +1,59 @@
+{
+  "name": "Lance",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-simple-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A long cavalry weapon designed to be used from horseback, the lance delivers devastating charges and keeps foes at bay.</p>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 12,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two",
+      "rch"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Spears",
+        "trainingLevel": "basic",
+        "masterPerk": "You can attempt a Shove as a bonus action. While mounted, after you successfully hit a target, you can attempt a shove as part of the attack and gain advantage in the roll. Additionally, you no longer suffer disadvantage to attack rolls when you use this weapon on foot."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "lance-0124",
+  "_key": "!items!lance-0124"
+}

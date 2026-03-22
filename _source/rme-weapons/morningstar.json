@@ -1,0 +1,59 @@
+{
+  "name": "Morningstar",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>A long-hafted weapon with a spiked iron head, combining reach with brutal impact. The spike punches through armor while the weight of the head shatters bones and bends steel.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Melee d8, Bludgeoning</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Reach, Melee d10, Bludgeoning or Piercing, Brace, Punch, Sunder, Wound</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Reach, Melee d10, Bludgeoning or Piercing, Brace, Punch, Sunder (enhanced), Wound</td></tr><tr><td><strong>Master Perk</strong></td><td>When an enemy fails their save against Sunder, their AC is reduced by your STR modifier (minimum 1) instead of the standard amount.</td></tr></table>"
+    },
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "rch",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "trainingLevel": "basic",
+        "masterPerk": "When an enemy fails their save against Sunder, their AC is reduced by your STR modifier (minimum 1) instead of the standard amount."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "morningstar-0027",
+  "_key": "!items!morningstar-0027"
+}

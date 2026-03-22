@@ -1,0 +1,67 @@
+{
+  "name": "War Hammer",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-war-metal.webp",
+  "system": {
+    "description": {
+      "value": "<p>A versatile war hammer that can be used one- or two-handed, capable of punishing blows, staggering, and sundering armor.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Melee d8, Versatile d10</td><td>Punch, Stagger, Sunder</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "bludgeoning",
+          "piercing"
+        ],
+        "bonus": ""
+      }
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "ver"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Hammers & Picks",
+        "trainingLevel": "basic",
+        "masterPerk": "If you move at least 10 ft in a straight line before your attack, your Sunder can lower an enemy's AC by -2 with one hand, or -3 with two hands."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "war-hammer-0094",
+  "_key": "!items!war-hammer-0094"
+}

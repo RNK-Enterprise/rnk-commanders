@@ -1,0 +1,53 @@
+{
+  "name": "Two-Weapon (RME Fighting Style)",
+  "type": "feat",
+  "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a balanced and ambidextrous warrior. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack, and if you have the Extra Attack feature, you gain one extra off-hand attack which you make as part of your Attack action.</p>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "fightingStyle"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "two-weapon-rme-fighting-style-0030",
+  "_key": "!items!two-weapon-rme-fighting-style-0030"
+}

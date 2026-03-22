@@ -1,0 +1,60 @@
+{
+  "name": "Hand Spear",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/javelin-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A short, balanced spear designed for one-handed use, equally suited for melee combat and throwing.</p>"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 40,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Spears",
+        "trainingLevel": "basic",
+        "masterPerk": "If you make a second attack on your turn against the same creature, that attack has advantage and you ignore all sources of disadvantage for that attack."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "hand-spear-0121",
+  "_key": "!items!hand-spear-0121"
+}

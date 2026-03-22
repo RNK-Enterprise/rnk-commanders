@@ -1,0 +1,58 @@
+{
+  "name": "Interceptor",
+  "type": "weapon",
+  "img": "icons/weapons/fist/fist-knuckles-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A hardened parrying device worn on the forearm or hand, designed primarily to intercept attacks and deflect incoming blows.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Damage</th><th>Special</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>One-Handed, Affixed, Finesse</td><td>Melee (B)</td><td>Conceal, Deflect (d6)</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 3,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Ambush Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "Deflect can be used against ranged weapon attacks. When you can see a target within 5 feet, use your reaction to impose disadvantage on their attack roll."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "interceptor-0005",
+  "_key": "!items!interceptor-0005"
+}

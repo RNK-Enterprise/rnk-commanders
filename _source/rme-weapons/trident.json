@@ -1,0 +1,66 @@
+{
+  "name": "Trident",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/trident-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>A three-pronged spear used both on land and at sea, the trident's multiple points are excellent for catching and disarming opponents.</p>"
+    },
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": {
+        "number": 2,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      }
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "ver",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Spears",
+        "trainingLevel": "basic",
+        "masterPerk": "You can Deflect attacks against any target in reach. When you wield a trident with two hands, your enemy must succeed on a Strength saving throw or be disarmed when you Deflect."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "trident-0127",
+  "_key": "!items!trident-0127"
+}

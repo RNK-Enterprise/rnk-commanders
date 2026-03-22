@@ -1,0 +1,57 @@
+{
+  "name": "War Sword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-worn-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A heavy, wide-bladed two-handed sword built to stagger armored opponents and cleave through large enemies. Brutal and reliable, it is the weapon of front-line soldiers who need guaranteed stopping power.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Heavy, Melee d10, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Melee d12, Stagger</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Heavy, Melee d12, Stagger \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>Critical hit range becomes 19-20 when wielded two-handed. Against Large or larger creatures, this weapon deals 2d8 (or 2d10 two-handed) instead of d12 (or 2d8 two-handed).</td></tr></table>"
+    },
+    "price": {
+      "value": 30,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 12,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "Critical hit range becomes 19-20 when wielded two-handed. Against Large or larger creatures, this weapon deals 2d8 (or 2d10 two-handed) instead of d12 (or 2d8 two-handed)."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "war-sword-0050",
+  "_key": "!items!war-sword-0050"
+}

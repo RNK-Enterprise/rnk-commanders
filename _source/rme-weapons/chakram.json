@@ -1,0 +1,60 @@
+{
+  "name": "Chakram",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/shuriken-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A flat circular blade with a sharpened outer edge, the chakram is both a melee weapon and a deadly thrown disc.</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 40,
+      "long": 120,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "If a creature misses you with an attack, as a reaction you can attack that creature."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "chakram-0133",
+  "_key": "!items!chakram-0133"
+}

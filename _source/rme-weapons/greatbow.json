@@ -1,0 +1,59 @@
+{
+  "name": "Greatbow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve-short.webp",
+  "system": {
+    "description": {
+      "value": "<p>A massive warbow that requires exceptional strength to draw, launching arrows with enough force to knock armored knights from their feet. A favorite of elite archers and siege specialists.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Heavy, Ranged d8 (100/400), Piercing. Requires STR 13.</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Ranged d10 (200/800), Piercing, Punch, Trip. Requires STR 13.</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Heavy, Ranged d10 (200/800), Piercing, Punch, Trip, Mighty Blow. Requires STR 13.</td></tr><tr><td><strong>Master Perk</strong></td><td>Mighty Blow: the target must save against Knockback. Flying creatures have disadvantage on this saving throw.</td></tr></table>"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 10,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 200,
+      "long": 800,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "hvy",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bows",
+        "trainingLevel": "basic",
+        "masterPerk": "Mighty Blow: the target must save against Knockback. Flying creatures have disadvantage on this saving throw."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "greatbow-0034",
+  "_key": "!items!greatbow-0034"
+}

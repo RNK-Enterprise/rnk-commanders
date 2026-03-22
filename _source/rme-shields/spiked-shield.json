@@ -1,0 +1,50 @@
+{
+  "name": "Spiked Shield",
+  "type": "equipment",
+  "img": "icons/equipment/shield/buckler-round-steel-spiked.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>+2 AC, 8 lbs, 20 gp</em></p><p>A spiked shield is a blanket term for all weaponized shields, with spikes on the face and either a spiked or bladed edge. Somewhat cumbersome compared to a skirmish shield with the added weaponization, a spiked shield is hard to be stealthy and agile with.</p><p>Spiked shield has the following properties: One-Handed, Melee d6, Brace, Puncture, Thrown (20/60). Spiked shield deals piercing or slashing damage. A spiked shield is not considered a weapon.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Basic</strong></td><td>You can replace any of your attacks with an attack using the Spiked shield. This attack does not benefit from your ability modifier to damage unless you have the Two-Weapon Fighting Style.</td></tr><tr><td><strong>Master</strong></td><td>You are so effective at using the dangerous points or blades of your shield that all enemies suffer disadvantage to Athletics checks against you, and a successful shove deals d4 + Strength modifier in piercing or slashing damage.</td></tr></table>"
+    },
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 2,
+      "dex": null
+    },
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "equipped": false,
+    "rarity": "common",
+    "strength": null
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Shields",
+        "shieldType": "Spiked",
+        "trainingLevel": "basic",
+        "acBonus": 2,
+        "donAction": "Bonus Action"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "spiked-shield-0006",
+  "_key": "!items!spiked-shield-0006"
+}

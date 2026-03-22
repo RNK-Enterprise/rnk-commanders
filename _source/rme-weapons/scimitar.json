@@ -1,0 +1,56 @@
+{
+  "name": "Scimitar",
+  "type": "weapon",
+  "img": "icons/weapons/swords/scimitar-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p>A curved cavalry blade designed to deliver slashing blows on the move. The scimitar rewards aggressive fighters who keep their momentum, hitting harder after closing distance.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Finesse, Light, Melee d4, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Finesse, Light, Melee d6, Deflect, Riposte</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Finesse, Light, Melee d6, Deflect, Riposte \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>If you travel 20 ft or more before attacking (including while mounted), your next attack with this weapon deals an extra d8 damage.</td></tr></table>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2.5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "If you travel 20 ft or more before attacking (including while mounted), your next attack with this weapon deals an extra d8 damage."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "scimitar-0048",
+  "_key": "!items!scimitar-0048"
+}

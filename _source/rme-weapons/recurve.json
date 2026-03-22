@@ -1,0 +1,58 @@
+{
+  "name": "Recurve",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve.webp",
+  "system": {
+    "description": {
+      "value": "<p>A compact bow with curved limbs that store more energy per draw, granting superior range and power relative to its size. Master archers use it to engage multiple targets in rapid succession.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Ranged d6 (80/320), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Ranged d8 (100/400), Piercing, Steady</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Ranged d8 (100/400), Piercing, Steady, multi-target follow-up</td></tr><tr><td><strong>Master Perk</strong></td><td>Once per turn, after hitting a target, you may make an additional attack against a different creature within 5 feet of the original target, provided it is also within normal range.</td></tr></table>"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 100,
+      "long": 400,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bows",
+        "trainingLevel": "basic",
+        "masterPerk": "Once per turn, after hitting a target, make an extra attack against a different creature within 5 feet of the original target that is also within normal range."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "recurve-0036",
+  "_key": "!items!recurve-0036"
+}

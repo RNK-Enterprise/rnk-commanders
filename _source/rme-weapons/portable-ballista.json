@@ -1,0 +1,56 @@
+{
+  "name": "Portable Ballista",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-heavy-ornate.webp",
+  "system": {
+    "description": {
+      "value": "<p>A man-portable siege weapon that fires massive bolts capable of pinning targets to terrain and restraining entire groups. Slow to load but catastrophically powerful, it dominates open ground.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Heavy, Ranged d8 (150/600), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Ranged 2d6+5 (150/600), Reload attack, Entangle, Keen, Knockback, Punch, Puncture, Trip</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Heavy, Ranged 2d6+5 (150/600), Reload attack, Entangle, Keen, Knockback, Punch, Puncture, Trip \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>A successful Entangle also applies the restrained condition and pins the target to the terrain until freed.</td></tr></table>"
+    },
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 15,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "types": [
+          "piercing"
+        ],
+        "bonus": "5"
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 150,
+      "long": 600,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Crossbows",
+        "trainingLevel": "basic",
+        "masterPerk": "A successful Entangle also applies the restrained condition and pins the target to the terrain until freed."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "portable-ballista-0057",
+  "_key": "!items!portable-ballista-0057"
+}

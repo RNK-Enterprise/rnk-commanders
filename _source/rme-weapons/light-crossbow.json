@@ -1,0 +1,56 @@
+{
+  "name": "Light Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A reliable two-handed crossbow balancing rate of fire and range. Sighted and steady, it suits disciplined marksmen who fire from prepared positions and punish enemies who try to close the distance.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Ranged d6 (80/320), Piercing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Ranged d8+3 (80/320), Reload reaction, Keen, Punch, Steady, Sighted</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Ranged d8+3 (80/320), Reload reaction, Keen, Punch, Steady, Sighted \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>As a reaction, you may make an attack against a creature that enters or leaves a space within 10 ft of you.</td></tr></table>"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "bonus": "3"
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 80,
+      "long": 320,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Crossbows",
+        "trainingLevel": "basic",
+        "masterPerk": "As a reaction, you may make an attack against a creature that enters or leaves a space within 10 ft of you."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "light-crossbow-0055",
+  "_key": "!items!light-crossbow-0055"
+}

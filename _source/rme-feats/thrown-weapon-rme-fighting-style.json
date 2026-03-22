@@ -1,0 +1,53 @@
+{
+  "name": "Thrown Weapon (RME Fighting Style)",
+  "type": "feat",
+  "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You throw weapons with extreme accuracy. Ranged weapon attacks with the Thrown property ignore half and three-quarters cover, and these weapons gain the Steady weapon property. Additionally, you can forgo your proficiency bonus to attack, but if your attack lands, you deal extra damage equal to double your proficiency bonus.</p>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "fightingStyle"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "thrown-weapon-rme-fighting-style-0028",
+  "_key": "!items!thrown-weapon-rme-fighting-style-0028"
+}

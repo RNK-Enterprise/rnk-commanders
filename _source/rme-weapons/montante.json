@@ -1,0 +1,57 @@
+{
+  "name": "Montante",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>A massive Iberian two-handed sword used to hold off multiple attackers. Its reach and balance allow a trained fighter to protect companions by denying approach.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Heavy, Reach, Melee 2d4, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Reach, Melee 2d6, Balanced</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Heavy, Reach, Melee 2d6, Balanced \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>As a reaction you enter a protective stance. All attacks made against your allies within your reach have disadvantage until the start of your next turn.</td></tr></table>"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "As a reaction you enter a protective stance. All attacks made against your allies within your reach have disadvantage until the start of your next turn."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "montante-0046",
+  "_key": "!items!montante-0046"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Spiked Mace",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-flanged-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>A lightweight mace studded with iron spikes, designed to punch through mail and gouge flesh. Quick enough to be wielded with other weapons, and vicious on a follow-up strike.</p><h3>Training Levels</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>One-Handed, Melee d4, Bludgeoning</td></tr><tr><td><strong>Basic</strong></td><td>One-Handed, Light, Melee d6, Bludgeoning or Piercing, Punch, Wound</td></tr><tr><td><strong>Master</strong></td><td>One-Handed, Light, Melee d6, Bludgeoning or Piercing, Punch, Wound, follow-up strike</td></tr><tr><td><strong>Master Perk</strong></td><td>As a bonus action, make an additional attack with this weapon at disadvantage. If it hits, the attack deals 2d6 damage instead of the normal damage dice.</td></tr></table>"
+    },
+    "price": {
+      "value": 3,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "properties": [
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Bludgeons",
+        "trainingLevel": "basic",
+        "masterPerk": "As a bonus action, make an additional attack at disadvantage. If it hits, it deals 2d6 damage instead of the normal damage dice."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "spiked-mace-0029",
+  "_key": "!items!spiked-mace-0029"
+}

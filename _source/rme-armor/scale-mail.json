@@ -1,0 +1,48 @@
+{
+  "name": "Scale Mail",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-scale-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>A series of scales attached to a padded coat, this armor can be quite noisy but the overlapping scales offer better protection than rings. You can don this armor in 1 minute or an action with help, and doff it with an action.</p>"
+    },
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 30,
+      "units": "lb"
+    },
+    "armor": {
+      "value": 16,
+      "dex": 0
+    },
+    "type": {
+      "value": "heavy",
+      "baseItem": "scaleMail"
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "equipped": false,
+    "rarity": "common",
+    "strength": 13
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Armor",
+        "subgroup": "Heavy",
+        "trainingLevel": "basic"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "scale-mail-0009",
+  "_key": "!items!scale-mail-0009"
+}

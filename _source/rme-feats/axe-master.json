@@ -1,0 +1,54 @@
+{
+  "name": "Axe Master",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choose 4 axes to gain master training when you take this feat.</p><ul><li>+1 to Athletics checks when holding an axe weapon.</li><li>You count as one size category larger for the purpose of Trip or Disarm.</li><li>On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can make another attack as part of the same action against a target within your weapon's reach. This effect can happen multiple times as long as the criteria are met.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Axes",
+        "featType": "groupMaster"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "axe-master-0001",
+  "_key": "!items!axe-master-0001"
+}

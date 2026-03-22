@@ -1,0 +1,61 @@
+{
+  "name": "Throwing Knife",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/knife-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A balanced blade optimized for throwing, the throwing knife can be used in melee or launched to distract and hobble enemies.</p>"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 30,
+      "long": 90,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "You can deal only your Strength or Dexterity modifier in damage, but force your target to succeed on a Dexterity saving throw or lose its reaction and suffer disadvantage on its next attack."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "throwing-knife-0138",
+  "_key": "!items!throwing-knife-0138"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Blowgun",
+  "type": "weapon",
+  "img": "icons/weapons/ammunition/arrow-head-war-pointed.webp",
+  "system": {
+    "description": {
+      "value": "<p>A long tube used to shoot small darts by blowing air through it. Favored by those who value stealth and the ability to deliver poisons from a distance.</p><p><strong>Basic:</strong> Light, One-Handed, Ranged d4 (25/100), Reload (free), Conceal, Hipshot</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 25,
+      "long": 100,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "properties": [
+      "amm",
+      "lgt"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Launch Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "You can load two darts and shoot two with the same attack roll at the same target or to two targets that are within 5 feet of one another. Each dart can deliver a poison or other payload, and when this weapon delivers poison, the enemy suffers disadvantage on the saving throw. Apply your ability modifier to damage on only one dart."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "blowgun-0098",
+  "_key": "!items!blowgun-0098"
+}

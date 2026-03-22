@@ -1,0 +1,54 @@
+{
+  "name": "Medium Armor Master",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-rivited-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Combining the mobility of light armor and the protection of heavy armor, your skirmishing is unmatched and you gain the following advantages while wearing medium armor.</p><ul><li>Permanently increase Dexterity or Strength score by 1 to a maximum of 20.</li><li>Wearing medium armor doesn't impose disadvantage on your Stealth checks.</li><li>In response to a critical hit, as a reaction you can attempt your choice of Dexterity or Strength saving throw against a DC of 10 or half the damage taken, whichever is higher. On success, you are resistant to all damage for that attack.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Armor",
+        "featType": "armorMaster"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "medium-armor-master-0009",
+  "_key": "!items!medium-armor-master-0009"
+}

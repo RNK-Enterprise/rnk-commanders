@@ -1,0 +1,62 @@
+{
+  "name": "Gunblade",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+  "system": {
+    "description": {
+      "value": "<p>A hybrid weapon combining a blade with a built-in firearm, allowing seamless transitions between melee and ranged combat.</p><table><thead><tr><th>Training</th><th>Properties</th><th>Special</th></tr></thead><tbody><tr><td>Basic</td><td>One-Handed, Finesse, Melee d8, Ranged 2d6+5 (40/160), Reload (attack), Firearm</td><td>Hipshot, Steady</td></tr></tbody></table>"
+    },
+    "price": {
+      "value": 350,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 40,
+      "long": 160,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "fir",
+      "rel",
+      "amm"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Firearms",
+        "trainingLevel": "basic",
+        "masterPerk": "When you take the Attack action on your turn, you can make one additional attack as part of your Attack action. If you made a ranged attack with this weapon, then this additional attack must be a melee attack. If you made a melee attack with this weapon, then this additional attack must be a ranged attack."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "gunblade-0072",
+  "_key": "!items!gunblade-0072"
+}

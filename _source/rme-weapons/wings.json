@@ -1,0 +1,59 @@
+{
+  "name": "Wings",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-hammer-destructive-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A natural weapon attack using the creature's wings to batter and buffet foes. Damage values are determined by the creature's stat block; RME properties apply on top of the creature's base attack.</p><p><strong>Basic:</strong> Finesse, Natural, Melee, Deflect d6, Knockback, Trip</p>"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "bludgeoning"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "two"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Natural Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "As long as you do not already have disadvantage on your attack rolls, when you make your first attack on your turn, you can decide to attack defensively. Doing so gives you disadvantage on all weapon attack rolls during this turn, but attack rolls against you have disadvantage until your next turn."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "wings-0112",
+  "_key": "!items!wings-0112"
+}

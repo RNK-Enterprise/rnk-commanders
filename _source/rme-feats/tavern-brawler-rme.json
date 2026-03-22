@@ -1,0 +1,53 @@
+{
+  "name": "Tavern Brawler (RME)",
+  "type": "feat",
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Revised for RME</em></p><ul><li>Increase your Strength or Constitution score by 1, to a maximum of 20.</li><li>You are proficient with improvised weapons.</li><li>Your training in Unarmed Strike is increased by one step, and your Unarmed Strike gains the Disarm, Entangle, and Trip properties.</li><li>When you hit a creature with an Unarmed Strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target.</li></ul>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "revised"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "tavern-brawler-rme-0016",
+  "_key": "!items!tavern-brawler-rme-0016"
+}

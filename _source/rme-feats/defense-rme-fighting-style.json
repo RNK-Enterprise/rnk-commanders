@@ -1,0 +1,53 @@
+{
+  "name": "Defense (RME Fighting Style)",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You employ defensive martial techniques in close quarters, moving inside an attacker's guard. While you are wearing armor, you gain a +1 bonus to AC. Additionally, when an enemy within 5ft of you is about to make a melee attack, you can use your reaction to impose disadvantage. If an enemy misses when you use this ability, you can attempt a grapple or shove as part of the same reaction.</p>"
+    },
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "activation": {
+      "type": "",
+      "cost": null
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "featType": "fightingStyle"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "defense-rme-fighting-style-0021",
+  "_key": "!items!defense-rme-fighting-style-0021"
+}

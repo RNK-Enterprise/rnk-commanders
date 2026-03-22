@@ -1,0 +1,57 @@
+{
+  "name": "Odachi",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-ornate-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>An extraordinarily long Japanese field sword built for sweeping strikes against multiple enemies. Masters use its length to chain attacks across the battlefield with devastating efficiency.</p><h3>Training</h3><table class='rme-stat-table'><tr><th>Level</th><th>Properties</th></tr><tr><td><strong>Untrained</strong></td><td>Two-Handed, Heavy, Melee 2d6, Slashing</td></tr><tr><td><strong>Basic</strong></td><td>Two-Handed, Heavy, Melee 2d8, Deflect, Keen</td></tr><tr><td><strong>Master</strong></td><td>Two-Handed, Heavy, Melee 2d8, Deflect, Keen \u00e2\u20ac\u201d all bonuses apply</td></tr><tr><td><strong>Master Perk</strong></td><td>When you attack a creature different from the last creature you attacked this turn, you deal an extra damage die on a hit.</td></tr></table>"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 8,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Combat Blades",
+        "trainingLevel": "basic",
+        "masterPerk": "When you attack a creature different from the last creature you attacked this turn, you deal an extra damage die on a hit."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "odachi-0047",
+  "_key": "!items!odachi-0047"
+}

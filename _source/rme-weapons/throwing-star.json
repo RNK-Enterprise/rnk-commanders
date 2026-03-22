@@ -1,0 +1,60 @@
+{
+  "name": "Throwing Star",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/shuriken-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A small multi-pointed metal disc that can be thrown with deadly accuracy. Easy to conceal and carry in quantity.</p>"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.05,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "types": [
+          "piercing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "As an action, you can make a single attack against all targets of your choice within 20 ft of you. You must have enough throwing stars to attack each target."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "throwing-star-0140",
+  "_key": "!items!throwing-star-0140"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Mambele",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/knife-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>A multi-bladed throwing knife with curved secondary blades, the mambele tumbles in flight and can deflect incoming attacks.</p>"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "piercing",
+          "slashing"
+        ],
+        "bonus": ""
+      },
+      "versatile": null
+    },
+    "range": {
+      "value": 40,
+      "long": 120,
+      "units": "ft"
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr"
+    ],
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "rnk-commanders-rme": {
+      "rmeData": {
+        "group": "Throwing Weapons",
+        "trainingLevel": "basic",
+        "masterPerk": "When you Deflect any damage from a melee weapon, you can Wound your enemy."
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "_id": "mambele-0136",
+  "_key": "!items!mambele-0136"
+}
